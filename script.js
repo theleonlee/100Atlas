@@ -344,12 +344,12 @@ loadAtlasData(
 );
 
 
-// loadAtlasData(
-//    'data/japan100castles.json',
-//    japan100CastlesLayer,
-//    '日本百名城',
-//    COLORS.japan100castles
-// );
+loadAtlasData(
+   'data/japan100castles.json',
+   japan100CastlesLayer,
+   '日本百名城',
+   COLORS.japan100castles
+);
 
 
 // loadAtlasData(
@@ -365,7 +365,7 @@ taiwan100PeaksLayer.addTo(map);
 taiwan100SmallPeaksLayer.addTo(map);
 japan100MountainsLayer.addTo(map);
 korea100MountainsLayer.addTo(map);
-// japan100CastlesLayer.addTo(map);
+japan100CastlesLayer.addTo(map);
 // japan100ContinuedCastlesLayer.addTo(map);
 
 
@@ -375,7 +375,7 @@ var overlays = {
     "小百岳": taiwan100SmallPeaksLayer,
     "日本百名山": japan100MountainsLayer,
     "韓國百名山": korea100MountainsLayer,
-    // "日本百名城": japan100CastlesLayer,
+    "日本百名城": japan100CastlesLayer,
     // "續日本百名城": japan100ContinuedCastlesLayer
 };
 

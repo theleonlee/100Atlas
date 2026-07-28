@@ -12,24 +12,24 @@ const COLORS = {
 
 const ATLAS_LIST = [
     {
-        id:"taiwan100peaks",
-        name:"百岳",
-        file:"data/taiwan100peaks.json"
-    },
-    {
         id:"taiwan100smallpeaks",
         name:"小百岳",
         file:"data/taiwan100smallpeaks.json"
     },
     {
-        id:"korea100mountains",
-        name:"韓國百名山",
-        file:"data/korea100mountains.json"
+        id:"taiwan100peaks",
+        name:"百岳",
+        file:"data/taiwan100peaks.json"
     },
     {
         id:"japan100mountains",
         name:"日本百名山",
         file:"data/japan100mountains.json"
+    },
+    {
+        id:"korea100mountains",
+        name:"韓國百名山",
+        file:"data/korea100mountains.json"
     },
     {
         id:"japan100castles",
@@ -322,20 +322,19 @@ function loadAtlasData(file, layer, type, color) {
 
 // 載入資料
 loadAtlasData(
-    'data/taiwan100peaks.json',
-    taiwan100PeaksLayer,
-    '百岳',
-    COLORS.taiwan100peaks
-);
-
-
-loadAtlasData(
     'data/taiwan100smallpeaks.json',
     taiwan100SmallPeaksLayer,
     '小百岳',
     COLORS.taiwan100smallpeaks
 );
 
+
+loadAtlasData(
+    'data/taiwan100peaks.json',
+    taiwan100PeaksLayer,
+    '百岳',
+    COLORS.taiwan100peaks
+);
 
 
 loadAtlasData(

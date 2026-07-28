@@ -1,8 +1,8 @@
 // 設定地標顏色
 const COLORS = {
-    taiwan100peaks: "#2E7D32",       // 綠
+    taiwan100peaks: "#558B2F",    // 綠
     taiwan100smallpeaks: "#F9A825",  // 黃
-    japan100mountains: "#558B2F",    // 綠
+    japan100mountains: "#2E7D32",       // 綠
     korea100mountains: "#00696C",    // 綠
     japan100castles: "#1565C0",      // 藍
     japan100continuedcastles: "#42A5F5",  // 藍
@@ -381,8 +381,8 @@ japan100ContinuedCastlesLayer.addTo(map);
 
 // 圖層控制
 var overlays = {
-    "百岳": taiwan100PeaksLayer,
     "小百岳": taiwan100SmallPeaksLayer,
+    "百岳": taiwan100PeaksLayer,
     "日本百名山": japan100MountainsLayer,
     "韓國百名山": korea100MountainsLayer,
     "日本百名城": japan100CastlesLayer,
@@ -411,12 +411,7 @@ legend.onAdd = function () {
 
     div.innerHTML = `
         <h4>圖例</h4>
-
-        <div>
-            <span class="legend-dot" style="background:#2E7D32"></span>
-            百岳
-        </div>
-
+        
         <div>
             <span class="legend-dot" style="background:#F9A825"></span>
             小百岳
@@ -424,12 +419,27 @@ legend.onAdd = function () {
 
         <div>
             <span class="legend-dot" style="background:#558B2F"></span>
-            日本百名山
+            百岳
         </div>
 
         <div>
             <span class="legend-dot" style="background:#00695C"></span>
             韓國百名山
+        </div>
+
+        <div>
+            <span class="legend-dot" style="background:#2E7D32"></span>
+            日本百名山
+        </div>
+
+        <div>
+            <span class="legend-dot" style="background:#1565C0"></span>
+            日本百名城
+        </div>
+
+        <div>
+            <span class="legend-dot" style="background:#42A5F5"></span>
+            續日本百名城
         </div>
 
         <hr>

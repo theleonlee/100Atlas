@@ -420,15 +420,15 @@ legend.onAdd = function () {
             <span class="legend-dot" style="background:#558B2F"></span>
             百岳
         </div>
+        
+        <div>
+            <span class="legend-dot" style="background:#2E7D32"></span>
+            日本百名山
+        </div>
 
         <div>
             <span class="legend-dot" style="background:#00695C"></span>
             韓國百名山
-        </div>
-
-        <div>
-            <span class="legend-dot" style="background:#2E7D32"></span>
-            日本百名山
         </div>
 
         <div>

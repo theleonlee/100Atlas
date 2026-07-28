@@ -22,14 +22,24 @@ const ATLAS_LIST = [
         file:"data/taiwan100smallpeaks.json"
     },
     {
+        id:"korea100mountains",
+        name:"韓國百名山",
+        file:"data/korea100mountains.json"
+    },
+    {
         id:"japan100mountains",
         name:"日本百名山",
         file:"data/japan100mountains.json"
     },
     {
-        id:"korea100mountains",
-        name:"韓國百名山",
-        file:"data/korea100mountains.json"
+        id:"japan100castles",
+        name:"日本百名城",
+        file:"data/japan100castles.json"
+    },
+    {
+        id:"japan100continuedcastles",
+        name:"續日本百名城",
+        file:"data/japan100continuedcastles.json"
     }
 ];
 
@@ -352,12 +362,12 @@ loadAtlasData(
 );
 
 
-// loadAtlasData(
-//    'data/japan100continuedcastles.json',
-//    japan100ContinuedCastlesLayer,
-//    '續日本百名城',
-//    COLORS.japan100continuedcastles
-// );
+loadAtlasData(
+   'data/japan100continuedcastles.json',
+   japan100ContinuedCastlesLayer,
+   '續日本百名城',
+   COLORS.japan100continuedcastles
+);
 
 
 // 預設顯示
@@ -366,7 +376,7 @@ taiwan100SmallPeaksLayer.addTo(map);
 japan100MountainsLayer.addTo(map);
 korea100MountainsLayer.addTo(map);
 japan100CastlesLayer.addTo(map);
-// japan100ContinuedCastlesLayer.addTo(map);
+japan100ContinuedCastlesLayer.addTo(map);
 
 
 // 圖層控制
@@ -376,7 +386,7 @@ var overlays = {
     "日本百名山": japan100MountainsLayer,
     "韓國百名山": korea100MountainsLayer,
     "日本百名城": japan100CastlesLayer,
-    // "續日本百名城": japan100ContinuedCastlesLayer
+    "續日本百名城": japan100ContinuedCastlesLayer
 };
 
 

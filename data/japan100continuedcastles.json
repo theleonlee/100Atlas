@@ -1,23 +1,1002 @@
 [
   {
-    "id": "jz001",
-    "name": "唐沢山城",
-    "city": "栃木県佐野市",
-    "lat": 36.3444,
-    "lng": 139.5764
+    "id": "jcc001",
+    "official_no": 101,
+    "name": "志苔館",
+    "name_en": "Shinoridate Castle",
+    "city": "北海道函館市",
+    "region": "北海道",
+    "lat": 41.7681,
+    "lng": 140.8358
   },
   {
-    "id": "jz002",
-    "name": "郡上八幡城",
-    "city": "岐阜県郡上市",
-    "lat": 35.7325,
-    "lng": 136.9539
+    "id": "jcc002",
+    "official_no": 102,
+    "name": "勝山館",
+    "name_en": "Katsuyamadate Castle",
+    "city": "北海道檜山郡上之國町",
+    "region": "北海道",
+    "lat": 41.7981,
+    "lng": 140.1242
   },
   {
-    "id": "jz003",
+    "id": "jcc003",
+    "official_no": 103,
+    "name": "浪岡城",
+    "name_en": "Namioka Castle",
+    "city": "青森縣青森市",
+    "region": "東北",
+    "lat": 40.7186,
+    "lng": 140.5975
+  },
+  {
+    "id": "jcc004",
+    "official_no": 104,
+    "name": "九戶城",
+    "name_en": "Kunohe Castle",
+    "city": "岩手縣二戶市",
+    "region": "東北",
+    "lat": 40.2694,
+    "lng": 141.3006
+  },
+  {
+    "id": "jcc005",
+    "official_no": 105,
+    "name": "白石城",
+    "name_en": "Shiroishi Castle",
+    "city": "宮城縣白石市",
+    "region": "東北",
+    "lat": 38.0025,
+    "lng": 140.6186
+  },
+  {
+    "id": "jcc006",
+    "official_no": 106,
+    "name": "脇本城",
+    "name_en": "Wakimoto Castle",
+    "city": "秋田縣男鹿市",
+    "region": "東北",
+    "lat": 39.9003,
+    "lng": 139.9017
+  },
+  {
+    "id": "jcc007",
+    "official_no": 107,
+    "name": "秋田城",
+    "name_en": "Akita Castle",
+    "city": "秋田縣秋田市",
+    "region": "東北",
+    "lat": 39.74,
+    "lng": 140.0825
+  },
+  {
+    "id": "jcc008",
+    "official_no": 108,
+    "name": "鶴ヶ岡城",
+    "name_en": "Tsurugaoka Castle",
+    "city": "山形縣鶴岡市",
+    "region": "東北",
+    "lat": 38.7297,
+    "lng": 139.8242
+  },
+  {
+    "id": "jcc009",
+    "official_no": 109,
     "name": "米沢城",
-    "city": "山形県米沢市",
-    "lat": 37.9058,
-    "lng": 140.1211
+    "name_en": "Yonezawa Castle",
+    "city": "山形縣米澤市",
+    "region": "東北",
+    "lat": 37.9086,
+    "lng": 140.1039
+  },
+  {
+    "id": "jcc010",
+    "official_no": 110,
+    "name": "三春城",
+    "name_en": "Miharu Castle",
+    "city": "福島縣田村郡三春町",
+    "region": "東北",
+    "lat": 37.4425,
+    "lng": 140.4897
+  },
+  {
+    "id": "jcc011",
+    "official_no": 111,
+    "name": "向羽黒山城",
+    "name_en": "Mukaihaguroyama Castle",
+    "city": "福島縣大沼郡會津美里町",
+    "region": "東北",
+    "lat": 37.4525,
+    "lng": 139.8972
+  },
+  {
+    "id": "jcc012",
+    "official_no": 112,
+    "name": "笠間城",
+    "name_en": "Kasama Castle",
+    "city": "茨城縣笠間市",
+    "region": "關東",
+    "lat": 36.3814,
+    "lng": 140.2683
+  },
+  {
+    "id": "jcc013",
+    "official_no": 113,
+    "name": "土浦城",
+    "name_en": "Tsuchiura Castle",
+    "city": "茨城縣土浦市",
+    "region": "關東",
+    "lat": 36.0847,
+    "lng": 140.1989
+  },
+  {
+    "id": "jcc014",
+    "official_no": 114,
+    "name": "唐澤山城",
+    "name_en": "Karasawayama Castle",
+    "city": "栃木縣佐野市",
+    "region": "關東",
+    "lat": 36.3533,
+    "lng": 139.6006
+  },
+  {
+    "id": "jcc015",
+    "official_no": 115,
+    "name": "名胡桃城",
+    "name_en": "Nagurumi Castle",
+    "city": "群馬縣利根郡水上町",
+    "region": "關東",
+    "lat": 36.6575,
+    "lng": 138.9983
+  },
+  {
+    "id": "jcc016",
+    "official_no": 116,
+    "name": "沼田城",
+    "name_en": "Numata Castle",
+    "city": "群馬縣沼田市",
+    "region": "關東",
+    "lat": 36.6436,
+    "lng": 139.04
+  },
+  {
+    "id": "jcc017",
+    "official_no": 117,
+    "name": "岩櫃城",
+    "name_en": "Iwabitsu Castle",
+    "city": "群馬縣吾妻郡東吾妻町",
+    "region": "關東",
+    "lat": 36.5622,
+    "lng": 138.8267
+  },
+  {
+    "id": "jcc018",
+    "official_no": 118,
+    "name": "忍城",
+    "name_en": "Oshi Castle",
+    "city": "埼玉縣行田市",
+    "region": "關東",
+    "lat": 36.1381,
+    "lng": 139.4539
+  },
+  {
+    "id": "jcc019",
+    "official_no": 119,
+    "name": "杉山城",
+    "name_en": "Sugiyama Castle",
+    "city": "埼玉縣比企郡嵐山町",
+    "region": "關東",
+    "lat": 36.0506,
+    "lng": 139.3175
+  },
+  {
+    "id": "jcc020",
+    "official_no": 120,
+    "name": "菅谷館",
+    "name_en": "Sugaya Yakata",
+    "city": "埼玉縣比企郡嵐山町",
+    "region": "關東",
+    "lat": 36.0425,
+    "lng": 139.3289
+  },
+  {
+    "id": "jcc021",
+    "official_no": 121,
+    "name": "本佐倉城",
+    "name_en": "Motosakura Castle",
+    "city": "千葉縣印旛郡酒々井町",
+    "region": "關東",
+    "lat": 35.7281,
+    "lng": 140.2336
+  },
+  {
+    "id": "jcc022",
+    "official_no": 122,
+    "name": "大滝城",
+    "name_en": "Otaki Castle",
+    "city": "千葉縣夷隅郡大多喜町",
+    "region": "關東",
+    "lat": 35.2869,
+    "lng": 140.2444
+  },
+  {
+    "id": "jcc023",
+    "official_no": 123,
+    "name": "品川台場",
+    "name_en": "Shinagawa Daiba",
+    "city": "東京都港區",
+    "region": "關東",
+    "lat": 35.6322,
+    "lng": 139.7725
+  },
+  {
+    "id": "jcc024",
+    "official_no": 124,
+    "name": "小机城",
+    "name_en": "Kozukue Castle",
+    "city": "神奈川縣橫濱市",
+    "region": "關東",
+    "lat": 35.5089,
+    "lng": 139.5936
+  },
+  {
+    "id": "jcc025",
+    "official_no": 125,
+    "name": "石垣山城",
+    "name_en": "Ishigakiyama Castle",
+    "city": "神奈川縣小田原市",
+    "region": "關東",
+    "lat": 35.2361,
+    "lng": 139.1306
+  },
+  {
+    "id": "jcc026",
+    "official_no": 126,
+    "name": "新府城",
+    "name_en": "Shinpu Castle",
+    "city": "山梨縣韮崎市",
+    "region": "中部",
+    "lat": 35.7483,
+    "lng": 138.4239
+  },
+  {
+    "id": "jcc027",
+    "official_no": 127,
+    "name": "要害山城",
+    "name_en": "Yogaisan Castle",
+    "city": "山梨縣甲府市",
+    "region": "中部",
+    "lat": 35.6964,
+    "lng": 138.5997
+  },
+  {
+    "id": "jcc028",
+    "official_no": 128,
+    "name": "龍岡城",
+    "name_en": "Tatsuoka Castle",
+    "city": "長野縣佐久市",
+    "region": "中部",
+    "lat": 36.1961,
+    "lng": 138.5125
+  },
+  {
+    "id": "jcc029",
+    "official_no": 129,
+    "name": "高島城",
+    "name_en": "Takashima Castle",
+    "city": "長野縣諏訪市",
+    "region": "中部",
+    "lat": 36.0461,
+    "lng": 138.1136
+  },
+  {
+    "id": "jcc030",
+    "official_no": 130,
+    "name": "村上城",
+    "name_en": "Murakami Castle",
+    "city": "新潟縣村上市",
+    "region": "中部",
+    "lat": 38.2236,
+    "lng": 139.4839
+  },
+  {
+    "id": "jcc031",
+    "official_no": 131,
+    "name": "高田城",
+    "name_en": "Takada Castle",
+    "city": "新潟縣上越市",
+    "region": "中部",
+    "lat": 37.1089,
+    "lng": 138.2567
+  },
+  {
+    "id": "jcc032",
+    "official_no": 132,
+    "name": "鮫ヶ尾城",
+    "name_en": "Samegao Castle",
+    "city": "新潟縣妙高市",
+    "region": "中部",
+    "lat": 37.0428,
+    "lng": 138.2197
+  },
+  {
+    "id": "jcc033",
+    "official_no": 133,
+    "name": "富山城",
+    "name_en": "Toyama Castle",
+    "city": "富山縣富山市",
+    "region": "中部",
+    "lat": 36.6931,
+    "lng": 137.2114
+  },
+  {
+    "id": "jcc034",
+    "official_no": 134,
+    "name": "増山城",
+    "name_en": "Masuyama Castle",
+    "city": "富山縣礪波市",
+    "region": "中部",
+    "lat": 36.6342,
+    "lng": 137.0258
+  },
+  {
+    "id": "jcc035",
+    "official_no": 135,
+    "name": "鳥越城",
+    "name_en": "Torigoe Castle",
+    "city": "石川縣白山市",
+    "region": "中部",
+    "lat": 36.3364,
+    "lng": 136.6022
+  },
+  {
+    "id": "jcc036",
+    "official_no": 136,
+    "name": "福井城",
+    "name_en": "Fukui Castle",
+    "city": "福井縣福井市",
+    "region": "中部",
+    "lat": 36.0653,
+    "lng": 136.2217
+  },
+  {
+    "id": "jcc037",
+    "official_no": 137,
+    "name": "越前大野城",
+    "name_en": "Echizen Ono Castle",
+    "city": "福井縣大野市",
+    "region": "中部",
+    "lat": 35.9861,
+    "lng": 136.4864
+  },
+  {
+    "id": "jcc038",
+    "official_no": 138,
+    "name": "佐柿國吉城",
+    "name_en": "Sagaki Kuniyoshi Castle",
+    "city": "福井縣三方郡美濱町",
+    "region": "中部",
+    "lat": 35.6033,
+    "lng": 135.9383
+  },
+  {
+    "id": "jcc039",
+    "official_no": 139,
+    "name": "玄蕃尾城",
+    "name_en": "Genbao Castle",
+    "city": "福井縣敦賀市 / 滋賀縣長濱市",
+    "region": "中部",
+    "lat": 35.6039,
+    "lng": 136.1731
+  },
+  {
+    "id": "jcc040",
+    "official_no": 140,
+    "name": "郡上八幡城",
+    "name_en": "Gujo Hachiman Castle",
+    "city": "岐阜縣郡上市",
+    "region": "中部",
+    "lat": 35.7533,
+    "lng": 136.9592
+  },
+  {
+    "id": "jcc041",
+    "official_no": 141,
+    "name": "苗木城",
+    "name_en": "Naegi Castle",
+    "city": "岐阜縣中津川市",
+    "region": "中部",
+    "lat": 35.5033,
+    "lng": 137.5028
+  },
+  {
+    "id": "jcc042",
+    "official_no": 142,
+    "name": "大垣城",
+    "name_en": "Ogaki Castle",
+    "city": "岐阜縣大垣市",
+    "region": "中部",
+    "lat": 35.3619,
+    "lng": 136.6161
+  },
+  {
+    "id": "jcc043",
+    "official_no": 143,
+    "name": "加納城",
+    "name_en": "Kano Castle",
+    "city": "岐阜縣岐阜市",
+    "region": "中部",
+    "lat": 35.3986,
+    "lng": 136.7628
+  },
+  {
+    "id": "jcc044",
+    "official_no": 144,
+    "name": "興國寺城",
+    "name_en": "Kokokuji Castle",
+    "city": "靜岡縣沼津市",
+    "region": "中部",
+    "lat": 35.1328,
+    "lng": 138.8028
+  },
+  {
+    "id": "jcc045",
+    "official_no": 145,
+    "name": "諏訪原城",
+    "name_en": "Suwahara Castle",
+    "city": "靜岡縣島田市",
+    "region": "中部",
+    "lat": 34.8058,
+    "lng": 138.1389
+  },
+  {
+    "id": "jcc046",
+    "official_no": 146,
+    "name": "浜松城",
+    "name_en": "Hamamatsu Castle",
+    "city": "靜岡縣濱松市",
+    "region": "中部",
+    "lat": 34.7114,
+    "lng": 137.725
+  },
+  {
+    "id": "jcc047",
+    "official_no": 147,
+    "name": "小牧山城",
+    "name_en": "Komakiyama Castle",
+    "city": "愛知縣小牧市",
+    "region": "中部",
+    "lat": 35.2917,
+    "lng": 136.9122
+  },
+  {
+    "id": "jcc048",
+    "official_no": 148,
+    "name": "古宮城",
+    "name_en": "Furumiya Castle",
+    "city": "愛知縣新城市",
+    "region": "中部",
+    "lat": 34.9753,
+    "lng": 137.4419
+  },
+  {
+    "id": "jcc049",
+    "official_no": 149,
+    "name": "吉田城",
+    "name_en": "Yoshida Castle",
+    "city": "愛知縣豐橋市",
+    "region": "中部",
+    "lat": 34.7706,
+    "lng": 137.3931
+  },
+  {
+    "id": "jcc050",
+    "official_no": 150,
+    "name": "津城",
+    "name_en": "Tsu Castle",
+    "city": "三重縣津市",
+    "region": "近畿",
+    "lat": 34.7178,
+    "lng": 136.5097
+  },
+  {
+    "id": "jcc051",
+    "official_no": 151,
+    "name": "多氣北畠氏城館",
+    "name_en": "Taki Kitabatake Clan Yakata",
+    "city": "三重縣津市",
+    "region": "近畿",
+    "lat": 34.5261,
+    "lng": 136.2758
+  },
+  {
+    "id": "jcc052",
+    "official_no": 152,
+    "name": "田丸城",
+    "name_en": "Tamaru Castle",
+    "city": "三重縣度會郡玉城町",
+    "region": "近畿",
+    "lat": 34.4883,
+    "lng": 136.6319
+  },
+  {
+    "id": "jcc053",
+    "official_no": 153,
+    "name": "赤木城",
+    "name_en": "Akagi Castle",
+    "city": "三重縣熊野市",
+    "region": "近畿",
+    "lat": 33.9036,
+    "lng": 135.9189
+  },
+  {
+    "id": "jcc054",
+    "official_no": 154,
+    "name": "鎌刃城",
+    "name_en": "Kamenoha Castle",
+    "city": "滋賀縣米原市",
+    "region": "近畿",
+    "lat": 35.2958,
+    "lng": 136.3125
+  },
+  {
+    "id": "jcc055",
+    "official_no": 155,
+    "name": "八幡山城",
+    "name_en": "Hachimanyama Castle",
+    "city": "滋賀縣近江八幡市",
+    "region": "近畿",
+    "lat": 35.1458,
+    "lng": 136.0894
+  },
+  {
+    "id": "jcc056",
+    "official_no": 156,
+    "name": "勝龍寺城",
+    "name_en": "Shoryuji Castle",
+    "city": "京都府長岡京市",
+    "region": "近畿",
+    "lat": 34.925,
+    "lng": 135.6981
+  },
+  {
+    "id": "jcc057",
+    "official_no": 157,
+    "name": "福知山城",
+    "name_en": "Fukuchiyama Castle",
+    "city": "京都府福知山市",
+    "region": "近畿",
+    "lat": 35.2972,
+    "lng": 135.1306
+  },
+  {
+    "id": "jcc058",
+    "official_no": 158,
+    "name": "芥川山城",
+    "name_en": "Akutagawayama Castle",
+    "city": "大阪府高槻市",
+    "region": "近畿",
+    "lat": 34.8692,
+    "lng": 135.6031
+  },
+  {
+    "id": "jcc059",
+    "official_no": 159,
+    "name": "飯盛城",
+    "name_en": "Iimori Castle",
+    "city": "大阪府大東市 / 四條畷市",
+    "region": "近畿",
+    "lat": 34.7214,
+    "lng": 135.645
+  },
+  {
+    "id": "jcc060",
+    "official_no": 160,
+    "name": "岸和田城",
+    "name_en": "Kishiwada Castle",
+    "city": "大阪府岸和田市",
+    "region": "近畿",
+    "lat": 34.4589,
+    "lng": 135.3711
+  },
+  {
+    "id": "jcc061",
+    "official_no": 161,
+    "name": "大和郡山城",
+    "name_en": "Yamatokoriyama Castle",
+    "city": "奈良縣大和郡山市",
+    "region": "近畿",
+    "lat": 34.6508,
+    "lng": 135.7803
+  },
+  {
+    "id": "jcc062",
+    "official_no": 162,
+    "name": "多聞山城",
+    "name_en": "Tamonoyama Castle",
+    "city": "奈良縣奈良市",
+    "region": "近畿",
+    "lat": 34.6936,
+    "lng": 135.8286
+  },
+  {
+    "id": "jcc063",
+    "official_no": 163,
+    "name": "新宮城",
+    "name_en": "Shingu Castle",
+    "city": "和歌山縣新宮市",
+    "region": "近畿",
+    "lat": 33.7267,
+    "lng": 135.9922
+  },
+  {
+    "id": "jcc064",
+    "official_no": 164,
+    "name": "出石城・有子山城",
+    "name_en": "Izushi Castle and Arikoyama Castle",
+    "city": "兵庫縣豐岡市",
+    "region": "近畿",
+    "lat": 35.4614,
+    "lng": 134.8778
+  },
+  {
+    "id": "jcc065",
+    "official_no": 165,
+    "name": "黒井城",
+    "name_en": "Kuroi Castle",
+    "city": "兵庫縣丹波市",
+    "region": "近畿",
+    "lat": 35.1706,
+    "lng": 135.0867
+  },
+  {
+    "id": "jcc066",
+    "official_no": 166,
+    "name": "洲本城",
+    "name_en": "Sumoto Castle",
+    "city": "兵庫縣洲本市",
+    "region": "近畿",
+    "lat": 34.3356,
+    "lng": 134.9011
+  },
+  {
+    "id": "jcc067",
+    "official_no": 167,
+    "name": "若桜鬼ヶ城",
+    "name_en": "Wakasa Onigajo Castle",
+    "city": "鳥取縣八頭郡若櫻町",
+    "region": "中國",
+    "lat": 35.3411,
+    "lng": 134.3986
+  },
+  {
+    "id": "jcc068",
+    "official_no": 168,
+    "name": "米子城",
+    "name_en": "Yonago Castle",
+    "city": "鳥取縣米子市",
+    "region": "中國",
+    "lat": 35.4228,
+    "lng": 133.3267
+  },
+  {
+    "id": "jcc069",
+    "official_no": 169,
+    "name": "浜田城",
+    "name_en": "Hamada Castle",
+    "city": "島根縣濱田市",
+    "region": "中國",
+    "lat": 34.9014,
+    "lng": 132.0792
+  },
+  {
+    "id": "jcc070",
+    "official_no": 170,
+    "name": "備中高松城",
+    "name_en": "Bitchu Takamatsu Castle",
+    "city": "岡山縣岡山市",
+    "region": "中國",
+    "lat": 34.6936,
+    "lng": 133.8239
+  },
+  {
+    "id": "jcc071",
+    "official_no": 171,
+    "name": "三原城",
+    "name_en": "Mihara Castle",
+    "city": "廣島縣三原市",
+    "region": "中國",
+    "lat": 34.4003,
+    "lng": 133.0858
+  },
+  {
+    "id": "jcc072",
+    "official_no": 172,
+    "name": "新高山城",
+    "name_en": "Niitakayama Castle",
+    "city": "廣島縣三原市",
+    "region": "中國",
+    "lat": 34.4367,
+    "lng": 133.0806
+  },
+  {
+    "id": "jcc073",
+    "official_no": 173,
+    "name": "勝山城",
+    "name_en": "Katsuyama Castle",
+    "city": "山口縣下關市",
+    "region": "中國",
+    "lat": 34.0042,
+    "lng": 130.9842
+  },
+  {
+    "id": "jcc074",
+    "official_no": 174,
+    "name": "勝瑞城",
+    "name_en": "Shozui Castle",
+    "city": "德島縣板野郡藍住町",
+    "region": "四國",
+    "lat": 34.1286,
+    "lng": 134.5053
+  },
+  {
+    "id": "jcc075",
+    "official_no": 175,
+    "name": "一宮城",
+    "name_en": "Ichinomiya Castle",
+    "city": "德島縣德島市",
+    "region": "四國",
+    "lat": 34.0375,
+    "lng": 134.4628
+  },
+  {
+    "id": "jcc076",
+    "official_no": 176,
+    "name": "引田城",
+    "name_en": "Hiketa Castle",
+    "city": "香川縣東香川市",
+    "region": "四國",
+    "lat": 34.2272,
+    "lng": 134.4089
+  },
+  {
+    "id": "jcc077",
+    "official_no": 177,
+    "name": "能島城",
+    "name_en": "Noshima Castle",
+    "city": "愛媛縣今治市",
+    "region": "四國",
+    "lat": 34.1614,
+    "lng": 133.0825
+  },
+  {
+    "id": "jcc078",
+    "official_no": 178,
+    "name": "河後森城",
+    "name_en": "Kagomori Castle",
+    "city": "愛媛縣北宇和郡松野町",
+    "region": "四國",
+    "lat": 33.2711,
+    "lng": 132.7164
+  },
+  {
+    "id": "jcc079",
+    "official_no": 179,
+    "name": "岡豊城",
+    "name_en": "Oko Castle",
+    "city": "高知縣南國市",
+    "region": "四國",
+    "lat": 33.5961,
+    "lng": 133.6339
+  },
+  {
+    "id": "jcc080",
+    "official_no": 180,
+    "name": "安芸城",
+    "name_en": "Aki Castle",
+    "city": "高知縣安藝市",
+    "region": "四國",
+    "lat": 33.5075,
+    "lng": 133.91
+  },
+  {
+    "id": "jcc081",
+    "official_no": 181,
+    "name": "小倉城",
+    "name_en": "Kokura Castle",
+    "city": "福岡縣北九州市",
+    "region": "九州・沖繩",
+    "lat": 33.8844,
+    "lng": 130.8742
+  },
+  {
+    "id": "jcc082",
+    "official_no": 182,
+    "name": "水城",
+    "name_en": "Mizuki Fortress",
+    "city": "福岡縣太宰府市",
+    "region": "九州・沖繩",
+    "lat": 33.5222,
+    "lng": 130.5097
+  },
+  {
+    "id": "jcc083",
+    "official_no": 183,
+    "name": "久留米城",
+    "name_en": "Kurume Castle",
+    "city": "福岡縣久留米市",
+    "region": "九州・沖繩",
+    "lat": 33.3236,
+    "lng": 130.5056
+  },
+  {
+    "id": "jcc084",
+    "official_no": 184,
+    "name": "基肄城",
+    "name_en": "Kii Castle",
+    "city": "佐賀縣三養基郡基山町",
+    "region": "九州・沖繩",
+    "lat": 33.4472,
+    "lng": 130.5186
+  },
+  {
+    "id": "jcc085",
+    "official_no": 185,
+    "name": "唐津城",
+    "name_en": "Karatsu Castle",
+    "city": "佐賀縣唐津市",
+    "region": "九州・沖繩",
+    "lat": 33.4536,
+    "lng": 129.9792
+  },
+  {
+    "id": "jcc086",
+    "official_no": 186,
+    "name": "原城",
+    "name_en": "Hara Castle",
+    "city": "長崎縣南島原市",
+    "region": "九州・沖繩",
+    "lat": 32.6283,
+    "lng": 130.3878
+  },
+  {
+    "id": "jcc087",
+    "official_no": 187,
+    "name": "福江城",
+    "name_en": "Fukue Castle",
+    "city": "長崎縣五島市",
+    "region": "九州・沖繩",
+    "lat": 32.6953,
+    "lng": 128.8475
+  },
+  {
+    "id": "jcc088",
+    "official_no": 188,
+    "name": "鞠智城",
+    "name_en": "Kikuchi Castle",
+    "city": "熊本縣山鹿市",
+    "region": "九州・沖繩",
+    "lat": 33.0039,
+    "lng": 130.7917
+  },
+  {
+    "id": "jcc089",
+    "official_no": 189,
+    "name": "八代城",
+    "name_en": "Yatsushiro Castle",
+    "city": "熊本縣八代市",
+    "region": "九州・沖繩",
+    "lat": 32.5075,
+    "lng": 130.5986
+  },
+  {
+    "id": "jcc090",
+    "official_no": 190,
+    "name": "中津城",
+    "name_en": "Nakatsu Castle",
+    "city": "大分縣中津市",
+    "region": "九州・沖繩",
+    "lat": 33.6067,
+    "lng": 131.1878
+  },
+  {
+    "id": "jcc091",
+    "official_no": 191,
+    "name": "角牟礼城",
+    "name_en": "Tsunomure Castle",
+    "city": "大分縣玖珠郡玖珠町",
+    "region": "九州・沖繩",
+    "lat": 33.2806,
+    "lng": 131.1558
+  },
+  {
+    "id": "jcc092",
+    "official_no": 192,
+    "name": "臼杵城",
+    "name_en": "Usuki Castle",
+    "city": "大分縣臼杵市",
+    "region": "九州・沖繩",
+    "lat": 33.1231,
+    "lng": 131.8089
+  },
+  {
+    "id": "jcc093",
+    "official_no": 193,
+    "name": "佐伯城",
+    "name_en": "Saiki Castle",
+    "city": "大分縣佐伯市",
+    "region": "九州・沖繩",
+    "lat": 32.9606,
+    "lng": 131.8986
+  },
+  {
+    "id": "jcc094",
+    "official_no": 194,
+    "name": "延岡城",
+    "name_en": "Nobeoka Castle",
+    "city": "宮崎縣延岡市",
+    "region": "九州・沖繩",
+    "lat": 32.5819,
+    "lng": 131.6622
+  },
+  {
+    "id": "jcc095",
+    "official_no": 195,
+    "name": "佐土原城",
+    "name_en": "Sadowara Castle",
+    "city": "宮崎縣宮崎市",
+    "region": "九州・沖繩",
+    "lat": 32.0506,
+    "lng": 131.4339
+  },
+  {
+    "id": "jcc096",
+    "official_no": 196,
+    "name": "志布志城",
+    "name_en": "Shibushi Castle",
+    "city": "鹿兒島縣志布志市",
+    "region": "九州・沖繩",
+    "lat": 31.4828,
+    "lng": 131.1031
+  },
+  {
+    "id": "jcc097",
+    "official_no": 197,
+    "name": "知覧城",
+    "name_en": "Chiran Castle",
+    "city": "鹿兒島縣南九州市",
+    "region": "九州・沖繩",
+    "lat": 31.3653,
+    "lng": 130.4508
+  },
+  {
+    "id": "jcc098",
+    "official_no": 198,
+    "name": "座喜味城",
+    "name_en": "Zakimi Gusuku",
+    "city": "沖繩縣中頭郡讀谷村",
+    "region": "九州・沖繩",
+    "lat": 26.4083,
+    "lng": 127.7425
+  },
+  {
+    "id": "jcc099",
+    "official_no": 199,
+    "name": "勝連城",
+    "name_en": "Katsuren Gusuku",
+    "city": "沖繩縣宇流麻市",
+    "region": "九州・沖繩",
+    "lat": 26.3308,
+    "lng": 127.8789
+  },
+  {
+    "id": "jcc100",
+    "official_no": 200,
+    "name": "浦添城",
+    "name_en": "Urasoe Gusuku",
+    "city": "沖繩縣浦添市",
+    "region": "九州・沖繩",
+    "lat": 26.2475,
+    "lng": 127.7267
   }
 ]
